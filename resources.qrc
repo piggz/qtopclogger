@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/QtOpcLogger/main.qml</file>
+        <file>qml/QtOpcLogger/TagEditor.qml</file>
+        <file>qml/QtOpcLogger/TagViewer.qml</file>
+        <file>qml/QtOpcLogger/media-playback-start.svg</file>
+        <file>qml/QtOpcLogger/media-playback-stop.svg</file>
+        <file>qml/QtOpcLogger/network-connect.svg</file>
+        <file>qml/QtOpcLogger/network-disconnect.svg</file>
+        <file>qml/QtOpcLogger/GroupEditor.qml</file>
+        <file>qml/QtOpcLogger/GroupViewer.qml</file>
+        <file>qml/QtOpcLogger/ReportViewer.qml</file>
+    </qresource>
+</RCC>

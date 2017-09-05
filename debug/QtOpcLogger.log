@@ -1,0 +1,95 @@
+﻿Build started 12/10/2016 13:41:57.
+     1>Project "C:\Projects\QtOpcLogger\QtOpcLogger.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(366,5): warning MSB8003: Could not find WindowsSDKDir variable from the registry.  TargetFrameworkVersion or PlatformToolset may be set to an invalid version number.
+     1>CustomBuild:
+         MOC fileio.h
+         MOC groupdatamodel.h
+         MOC grouplogger.h
+         MOC livedatamodel.h
+         MOC opchistory.h
+         MOC opclogger.h
+         MOC plotdialog.h
+         MOC qcustomplot.h
+         MOC qmlsettings.h
+         MOC reporttemplatemodel.h
+         UIC plotdialog.ui
+         RCC resources.qrc
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I. /I..\..\QtOpcSdk /I"..\..\Program Files\Microsoft SDKs\Windows\v7.1A\Include" /I..\..\Qt\Qt5.7.0\5.7\msvc2015\include /I..\..\Qt\Qt5.7.0\5.7\msvc2015\include\QtQuick /I..\..\Qt\Qt5.7.0\5.7\msvc2015\include\QtPrintSupport /I..\..\Qt\Qt5.7.0\5.7\msvc2015\include\QtWidgets /I..\..\Qt\Qt5.7.0\5.7\msvc2015\include\QtGui /I..\..\Qt\Qt5.7.0\5.7\msvc2015\include\QtANGLE /I..\..\Qt\Qt5.7.0\5.7\msvc2015\include\QtQml /I..\..\Qt\Qt5.7.0\5.7\msvc2015\include\QtNetwork /I..\..\Qt\Qt5.7.0\5.7\msvc2015\include\QtCore /Idebug /I. /I"..\..\Qt\Qt5.7.0\5.7\msvc2015\mkspecs\win32-msvc2015" /Zi /nologo /W3 /WX- /Od /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D QT_QUICK_LIB /D QT_PRINTSUPPORT_LIB /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_QML_LIB /D QT_NETWORK_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"debug\\" /Fd"debug\vc140.pdb" /Gd /TP /wd4577 /analyze- /errorReport:prompt -Zc:strictStrings -Zc:throwingNew -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 fileio.cpp groupdatamodel.cpp grouplogger.cpp livedatamodel.cpp main.cpp opchistory.cpp opclogger.cpp plotdialog.cpp qcustomplot.cpp qmlsettings.cpp reporttemplatemodel.cpp debug\moc_fileio.cpp debug\moc_groupdatamodel.cpp debug\moc_grouplogger.cpp debug\moc_livedatamodel.cpp debug\moc_opchistory.cpp debug\moc_opclogger.cpp debug\moc_plotdialog.cpp debug\moc_qcustomplot.cpp debug\moc_qmlsettings.cpp debug\moc_reporttemplatemodel.cpp debug\qrc_resources.cpp
+         fileio.cpp
+         groupdatamodel.cpp
+         grouplogger.cpp
+         livedatamodel.cpp
+         main.cpp
+     1>c:\program files\microsoft sdks\windows\v7.1a\include\sal_supp.h(57): warning C4005: '__useHeader': macro redefinition
+         C:\Program Files\Microsoft Visual Studio 14.0\VC\include\sal.h(2886): note: see previous definition of '__useHeader'
+     1>c:\program files\microsoft sdks\windows\v7.1a\include\specstrings_supp.h(77): warning C4005: '__on_failure': macro redefinition
+         C:\Program Files\Microsoft Visual Studio 14.0\VC\include\sal.h(2896): note: see previous definition of '__on_failure'
+     1>main.cpp(23): warning C4100: 'context': unreferenced formal parameter
+     1>main.cpp(23): warning C4100: 'type': unreferenced formal parameter
+         opchistory.cpp
+         opclogger.cpp
+         plotdialog.cpp
+     1>c:\program files\microsoft sdks\windows\v7.1a\include\sal_supp.h(57): warning C4005: '__useHeader': macro redefinition
+         C:\Program Files\Microsoft Visual Studio 14.0\VC\include\sal.h(2886): note: see previous definition of '__useHeader'
+     1>c:\program files\microsoft sdks\windows\v7.1a\include\specstrings_supp.h(77): warning C4005: '__on_failure': macro redefinition
+         C:\Program Files\Microsoft Visual Studio 14.0\VC\include\sal.h(2896): note: see previous definition of '__on_failure'
+     1>plotdialog.cpp(185): warning C4100: 'event': unreferenced formal parameter
+         qcustomplot.cpp
+     1>c:\program files\microsoft sdks\windows\v7.1a\include\sal_supp.h(57): warning C4005: '__useHeader': macro redefinition
+         C:\Program Files\Microsoft Visual Studio 14.0\VC\include\sal.h(2886): note: see previous definition of '__useHeader'
+     1>c:\program files\microsoft sdks\windows\v7.1a\include\specstrings_supp.h(77): warning C4005: '__on_failure': macro redefinition
+         C:\Program Files\Microsoft Visual Studio 14.0\VC\include\sal.h(2896): note: see previous definition of '__on_failure'
+         qmlsettings.cpp
+         reporttemplatemodel.cpp
+         moc_fileio.cpp
+         moc_groupdatamodel.cpp
+         moc_grouplogger.cpp
+         moc_livedatamodel.cpp
+         moc_opchistory.cpp
+         moc_opclogger.cpp
+         moc_plotdialog.cpp
+     1>c:\program files\microsoft sdks\windows\v7.1a\include\sal_supp.h(57): warning C4005: '__useHeader': macro redefinition
+         C:\Program Files\Microsoft Visual Studio 14.0\VC\include\sal.h(2886): note: see previous definition of '__useHeader'
+     1>c:\program files\microsoft sdks\windows\v7.1a\include\specstrings_supp.h(77): warning C4005: '__on_failure': macro redefinition
+         C:\Program Files\Microsoft Visual Studio 14.0\VC\include\sal.h(2896): note: see previous definition of '__on_failure'
+         moc_qcustomplot.cpp
+     1>c:\program files\microsoft sdks\windows\v7.1a\include\sal_supp.h(57): warning C4005: '__useHeader': macro redefinition
+         C:\Program Files\Microsoft Visual Studio 14.0\VC\include\sal.h(2886): note: see previous definition of '__useHeader'
+     1>c:\program files\microsoft sdks\windows\v7.1a\include\specstrings_supp.h(77): warning C4005: '__on_failure': macro redefinition
+         C:\Program Files\Microsoft Visual Studio 14.0\VC\include\sal.h(2896): note: see previous definition of '__on_failure'
+         moc_qmlsettings.cpp
+         Generating Code...
+         Compiling...
+         moc_reporttemplatemodel.cpp
+         qrc_resources.cpp
+         Generating Code...
+       Link:
+         C:\Program Files\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"debug\\QtOpcLogger.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.7.0\5.7\msvc2015\lib /LIBPATH:C:\utils\postgresql\pgsql\lib /LIBPATH:C:\utils\my_sql\my_sql\lib /LIBPATH:"C:\Program Files\Microsoft SDKs\Windows\v7.1A\Lib" C:\Qt\Qt5.7.0\5.7\msvc2015\lib\qtmaind.lib shell32.lib C:/QtOpcSdk/QtOpc.lib C:\Qt\Qt5.7.0\5.7\msvc2015\lib\Qt5Quickd.lib C:\Qt\Qt5.7.0\5.7\msvc2015\lib\Qt5PrintSupportd.lib C:\Qt\Qt5.7.0\5.7\msvc2015\lib\Qt5Widgetsd.lib C:\Qt\Qt5.7.0\5.7\msvc2015\lib\Qt5Guid.lib C:\Qt\Qt5.7.0\5.7\msvc2015\lib\Qt5Qmld.lib C:\Qt\Qt5.7.0\5.7\msvc2015\lib\Qt5Networkd.lib C:\Qt\Qt5.7.0\5.7\msvc2015\lib\Qt5Cored.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"debug\QtOpcLogger.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 /SAFESEH "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" debug\fileio.obj
+         debug\groupdatamodel.obj
+         debug\grouplogger.obj
+         debug\livedatamodel.obj
+         debug\main.obj
+         debug\opchistory.obj
+         debug\opclogger.obj
+         debug\plotdialog.obj
+         debug\qcustomplot.obj
+         debug\qmlsettings.obj
+         debug\reporttemplatemodel.obj
+         debug\moc_fileio.obj
+         debug\moc_groupdatamodel.obj
+         debug\moc_grouplogger.obj
+         debug\moc_livedatamodel.obj
+         debug\moc_opchistory.obj
+         debug\moc_opclogger.obj
+         debug\moc_plotdialog.obj
+         debug\moc_qcustomplot.obj
+         debug\moc_qmlsettings.obj
+         debug\moc_reporttemplatemodel.obj
+         debug\qrc_resources.obj
+         QtOpcLogger.vcxproj -> C:\Projects\QtOpcLogger\debug\QtOpcLogger.exe
+     1>Done Building Project "C:\Projects\QtOpcLogger\QtOpcLogger.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:44.96

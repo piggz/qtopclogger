@@ -1,0 +1,7 @@
+opchost;
+opcserver;Matrikon.OPC.Simulation.1
+opcitem;TEST_STRING|Random.String|String
+opcitem;TEST_UINT1|Random.UInt1|Uint1
+opcitem;TEST_DATE|Random.Time|date
+opcitem;TEST_UINT4|Random.UInt4|uint4
+opcitem;SQUARE_BOOL|Square Waves.Boolean|boolean
